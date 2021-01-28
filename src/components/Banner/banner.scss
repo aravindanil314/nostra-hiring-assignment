@@ -1,0 +1,17 @@
+@import "../../styles/global/colors";
+@import "../../styles/global/typography";
+
+.banner {
+  background-color: $blue;
+  padding: 10px;
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .banner_img_bx {
+    padding: 0 10px;
+    &.redirect {
+      cursor: pointer;
+    }
+  }
+}

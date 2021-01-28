@@ -1,0 +1,30 @@
+@import "../../styles/global/colors";
+@import "../../styles/global/typography";
+
+.header {
+  background-image: $gradient;
+  height: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 10000;
+  h1 {
+    font-family: $ProximaNova-Bold;
+    font-size: 14px;
+    color: $white;
+    letter-spacing: 0;
+    text-align: center;
+  }
+  .back_btn {
+    cursor: pointer;
+    img {
+      width: 12px;
+      height: 12px;
+      position: absolute;
+      left: 24px;
+      top: 36px;
+    }
+  }
+}

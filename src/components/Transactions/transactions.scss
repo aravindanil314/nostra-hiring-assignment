@@ -1,0 +1,50 @@
+@import "../../styles/global/colors";
+@import "../../styles/global/typography";
+
+.transactions_container {
+  padding: 0 12px;
+  .wallet_transaction_card,
+  .contest_transaction_card {
+    background: $white;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+      0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 12px;
+    .card_header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      img {
+        height: 30px;
+        width: 30px;
+      }
+      .bold {
+        font-family: $Rajdhani-Bold;
+        font-size: 18px;
+        color: $black;
+        letter-spacing: 0;
+        line-height: 12px;
+      }
+    }
+    .status {
+      font-family: $Rajdhani-SemiBold;
+      font-size: 12px;
+      color: $grey;
+      letter-spacing: 0;
+      width: 80%;
+    }
+  }
+  .transactions_bx {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .wallet_transaction_card {
+    width: 30%;
+  }
+  .contest_transaction_card {
+    width: 48%;
+  }
+}

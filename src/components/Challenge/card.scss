@@ -1,0 +1,78 @@
+@import "../../styles/global/colors";
+@import "../../styles/global/typography";
+
+.card_container {
+  padding: 15px;
+  .card {
+    background: $white;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+      0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    margin-bottom: 10px;
+    padding: 6px 10px;
+    .title {
+      font-family: $Rajdhani-SemiBold;
+      font-size: 11px;
+      color: $blue;
+      letter-spacing: 0;
+    }
+    .match_parties_bx {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 6px 10px;
+      background-color: $secondary-grey;
+      font-family: $Rajdhani-Bold;
+      font-size: 14px;
+      color: #666666;
+      letter-spacing: 0;
+      text-align: center;
+      line-height: 14px;
+      margin-top: 7px;
+      img {
+        width: 30px;
+        height: 30px;
+      }
+      .match_details {
+        img {
+          width: 7px;
+          height: 7px;
+        }
+        p:first-of-type{
+          margin-bottom: 5px;
+        }
+      }
+    }
+    .bet_details {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 8px;
+      img {
+        height: 14px;
+        width: 14px;
+        margin-right: 5px;
+      }
+      .prize_money {
+        font-family: $Rajdhani-Bold;
+        font-size: 15px;
+        color: $green;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 14px;
+        display: flex;
+        align-items: center;
+      }
+      .start_time {
+        font-family: $Rajdhani-SemiBold;
+        font-size: 13px;
+        color: $grey;
+        letter-spacing: 0;
+        text-align: right;
+        line-height: 14px;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}

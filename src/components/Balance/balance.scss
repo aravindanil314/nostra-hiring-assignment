@@ -1,0 +1,25 @@
+@import "../../styles/global/colors";
+@import "../../styles/global/typography";
+
+.balance_card {
+  background: $blue;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  margin: 12px;
+  padding: 20px;
+  .balance_amt {
+    font-family: $Rajdhani-Bold;
+    font-size: 18px;
+    color: $white;
+    letter-spacing: 0;
+    text-align: center;
+  }
+  .withdrawal_status {
+    font-family: $ProximaNova-Semibold;
+    font-size: 12px;
+    color: $white;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 5px;
+  }
+}
